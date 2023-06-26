@@ -1,0 +1,28 @@
+* {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+ul > li {
+    list-style: none;
+}
+
+ul > li > a {
+    text-decoration: none;
+}
+
+main > div {
+    width: 100%;
+    text-align: center;
+}
+
+main > div > h1 {
+    margin: 5rem;
+}
